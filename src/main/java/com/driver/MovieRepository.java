@@ -19,12 +19,12 @@ public class MovieRepository {
 
     public void saveMovie(Movie movie){
         // your code here
-        movieMap.put(Movie.getName(),movie);
+        movieMap.put(movie.getName(),movie);
     }
 
     public void saveDirector(Director director){
         // your code here
-        directorMap.put(Director.getName(),director);
+        directorMap.put(director.getName(),director);
     }
 
     public void saveMovieDirectorPair(String movie, String director){

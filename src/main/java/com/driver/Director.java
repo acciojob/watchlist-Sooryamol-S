@@ -18,7 +18,7 @@ public class Director {
         this.imdbRating = imdbRating;
     }
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
